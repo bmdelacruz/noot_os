@@ -1,0 +1,10 @@
+[package]
+name = "noot_os"
+version = "0.1.0"
+authors = ["Bryan Dela Cruz <bryanmdlx@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+uefi = { path = "lib/uefi-rs" }
+uefi-services = { path = "lib/uefi-rs/uefi-services" }
+log = { version = "0.4", default-features = false }
